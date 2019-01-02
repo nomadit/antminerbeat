@@ -1,0 +1,5 @@
+= Antminerbeat Docs
+
+Welcome to the Antminerbeat documentation.
+
+

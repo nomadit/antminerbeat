@@ -1,0 +1,11 @@
+[Unit]
+Description=antminerbeat
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/home/miner/antminerbeat/beat/beat -c /home/miner/antminerbeat/beat/antminerbeat.yml -path.logs /var/log/antminerbeat
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

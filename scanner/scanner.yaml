@@ -1,0 +1,28 @@
+################### Scanner Configuration #########################
+dev:
+  server:
+    server_host: "localhost:3100"
+    period: 10s
+  scan:
+    workers: 10
+    jobs: 200
+    results: 200
+    period: 10s
+test:
+  server:
+    server_host: "localhost:3100"
+    period: 10s
+  scan:
+    workers: 10
+    jobs: 200
+    results: 200
+    period: 10s
+prod:
+  server:
+    server_host: "localhost:3100"
+    period: 10s
+  scan:
+    workers: 10
+    jobs: 200
+    results: 200
+    period: 10s

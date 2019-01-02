@@ -1,0 +1,20 @@
+package: github.com/nomadit/antminerbeat/beat
+import:
+- package: github.com/elastic/beats
+  version: ^6.4.3
+  subpackages:
+  - libbeat/beat
+  - libbeat/cmd
+  - libbeat/common
+  - libbeat/logp
+- package: github.com/go-sql-driver/mysql
+  version: ^1.4.0
+- package: github.com/parnurzeal/gorequest
+  version: ^0.2.15
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: golang.org/x/net
+  subpackages:
+  - html
+- package: github.com/delphinus/random-string
+  version: ^1.0.0

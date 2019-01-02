@@ -1,0 +1,11 @@
+[Unit]
+Description=scanner
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/home/miner/antminerbeat/scanner/scanner -mode=prod -config=/home/miner/antminerbeat/scanner/scanner.yaml
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

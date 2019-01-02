@@ -1,0 +1,29 @@
+################### Antminerbeat Configuration Example #########################
+
+############################# Antminerbeat ######################################
+
+antminerbeat:
+
+############################# Server ###########################################
+
+antminerbeat.server:
+  server_host: "localhost:3100"
+  period: 1m
+
+############################# Network Scans ####################################
+
+antimerbeat.scan.network:
+  workers: 20
+  jobs: 256
+  results: 256
+  # Defines how often an event is sent to the output
+  period: 1m
+
+############################# Miner Status Scans ####################################
+
+antimerbeat.scan.miner.status:
+  workers: 20
+  # Defines how often an event is sent to the output
+  period: 1m
+  default_user: "root"
+  default_password: "root"

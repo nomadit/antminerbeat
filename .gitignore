@@ -1,0 +1,13 @@
+/.idea
+
+.DS_Store
+*.pyc
+/beat/beat
+/beat/logs
+/beat/vendor
+/beat/build
+
+/scanner/logs
+/scanner/vendor
+/scanner/scanner
+antminerbeat.tar.gz
